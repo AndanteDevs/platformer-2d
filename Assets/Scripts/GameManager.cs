@@ -9,6 +9,11 @@ public class GameManager : MonoBehaviour {
         {
             ResetToMenu();
         }
+
+        if (Input.GetKey("r"))
+        {
+            ResetScene();
+        }
     }
 
     public void StartGame()
