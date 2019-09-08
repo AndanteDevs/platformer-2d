@@ -16,7 +16,7 @@ public class PlayerMovement : MonoBehaviour {
 
         horizontalMove = Input.GetAxisRaw("Horizontal") * movementSpeed;
 
-        if ( Input.GetButton("Jump") )
+        if ( Input.GetButtonDown("Jump") )
         {
             jump = true;
         }
