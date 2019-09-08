@@ -3,7 +3,7 @@
 public class PlayerCollision : MonoBehaviour {
 
     public Transform playerTransform;
-    public PlayerMovement playerMovement;
+    public CharacterController2D playerMovement;
     public GameObject DeathPanel;
     public float playerYMin;
     public float deathResetDelay = 1;

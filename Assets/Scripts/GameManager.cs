@@ -9,6 +9,22 @@ public class GameManager : MonoBehaviour {
         {
             ResetToMenu();
         }
+
+        if (Input.GetKey("r"))
+        {
+            ResetScene();
+        }
+
+        // In-game scene changing (test)
+        if (Input.GetKey("0")) {
+            SceneManager.LoadScene(0);
+        }
+        if (Input.GetKey("1")) {
+            SceneManager.LoadScene(1);
+        }
+        if (Input.GetKey("2")) {
+            SceneManager.LoadScene(2);
+        }
     }
 
     public void StartGame()
